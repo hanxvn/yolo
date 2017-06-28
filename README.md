@@ -12,11 +12,14 @@ How to run YOLOv2
 ### iOS
 How to run YOLOv2 in iOS
 
+
 ### TO DO LIST
 
 - [ ] darknet
 
 - [ ] Android
+It is based on [tensorflow](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/android)
 
 - [ ] iOS
+It is based on [enVision](https://github.com/IDLabs-Gate/enVision)
 
