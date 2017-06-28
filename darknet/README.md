@@ -7,4 +7,4 @@ For more information see the [Darknet project website](http://pjreddie.com/darkn
 
 For questions or issues please use the [Google Group](https://groups.google.com/forum/#!forum/darknet).
 
-YOLOv2 project page: Convolutional Neural Networks http://pjreddie.com/darknet/
+YOLOv2 project page: Convolutional Neural Networks http://pjreddie.com/darknet/yolo
