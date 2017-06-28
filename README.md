@@ -13,7 +13,10 @@ How to run YOLOv2
 How to run YOLOv2 in iOS
 
 ### TO DO LIST
-[] darknet
-[] Android
-[]iOS
+
+- [ ] darknet
+
+- [ ] Android
+
+- [ ] iOS
 
