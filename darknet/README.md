@@ -1,5 +1,3 @@
-![Darknet Logo](http://pjreddie.com/media/files/darknet-black-small.png)
-
 #Darknet#
 Darknet is an open source neural network framework written in C and CUDA. It is fast, easy to install, and supports CPU and GPU computation.
 
@@ -40,7 +38,18 @@ DEBUG=0`
 
 then use `make` to build darknet.
 
+2. Train a model
+
+Modify `Makefile` as your configuration. Then `make train` or `make train-gpus`
+
+3. Test a model
+
+Modify `Makefile` as your configuration. Then `make test`
+
 ### Step 5: Training
 
+`make train` or `make train-gpus`
 
 ### Step 6: Testing
+
+`make test` or `make test-camera`
