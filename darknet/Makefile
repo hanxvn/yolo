@@ -103,7 +103,7 @@ train-gpus:
 	${PWD}/darknet detector train cfg/coco.data cfg/yolo.cfg ${PWD}/model/model_1000.weights -gpus 0,1,2,3
 
 test:
-	${PWD}/darknet detector test cfg/coco.data cfg/yolo.cfg ${PWD}/model/model.weights ${PWD}/test.png
+	${PWD}/darknet detector test cfg/coco.data cfg/yolo.cfg ${PWD}/model/model_final.weights ${PWD}/test.png
 
 test-camera:
-	${PWD}/darknet detector demo cfg/easy.data cfg/easy.cfg ${PWD}/backup/easy_final.weights
+	${PWD}/darknet detector demo cfg/easy.data cfg/easy.cfg ${PWD}/model/model_final.weights
