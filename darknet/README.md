@@ -48,6 +48,8 @@ Modify `Makefile` as your configuration. Then `make test`
 
 ### Step 5: Training
 
+`wget a pretrained model` as defined in `Makefile`, e.g., `wget https://www.dropbox.com/s/xen6a1yzf7qpbq4/darknet19_448.conv.23`. The pretrained model should be in `darknet` directory.
+
 `make train` or `make train-gpus`
 
 ### Step 6: Testing
