@@ -106,4 +106,4 @@ test:
 	${PWD}/darknet detector test cfg/coco.data cfg/yolo.cfg ${PWD}/model/model_final.weights ${PWD}/test.png
 
 test-camera:
-	${PWD}/darknet detector demo cfg/easy.data cfg/easy.cfg ${PWD}/model/model_final.weights
+	${PWD}/darknet detector demo cfg/easy.data cfg/yolo.cfg ${PWD}/model/model_final.weights
