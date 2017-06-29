@@ -23,3 +23,14 @@ YOLOv2 project page: Convolutional Neural Networks http://pjreddie.com/darknet/y
 ### Step 2: Clone the repo
 
 ` git clone https://github.com/hanxvn/yolo.git`
+
+### Step 3: Dataset
+
+
+### Step 4: Modify configuration file
+
+
+### Step 5: Training
+
+
+### Step 6: Testing
