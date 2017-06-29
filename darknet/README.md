@@ -24,6 +24,8 @@ YOLOv2 project page: Convolutional Neural Networks http://pjreddie.com/darknet/y
 
 ### Step 3: Dataset
 
+Use `darknet/script/.sh` to get any neccessary dataset.
+
 
 ### Step 4: Modify configuration file
 
