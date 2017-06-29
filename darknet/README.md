@@ -29,6 +29,16 @@ YOLOv2 project page: Convolutional Neural Networks http://pjreddie.com/darknet/y
 
 ### Step 4: Modify configuration file
 
+1. Build darknet
+
+Modify the following lines in `Makefile` according to your system (GPU vs non-GPU, OpenCV vs non-OpenCV etc)
+
+`GPU=0
+CUDNN=0
+OPENCV=0
+DEBUG=0`
+
+then use `make` to build darknet.
 
 ### Step 5: Training
 
